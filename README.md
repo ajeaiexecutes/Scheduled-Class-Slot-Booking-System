@@ -5,14 +5,14 @@ I’ve kept the content exactly backend-focused and polished the formatting for 
 ---
 
 ````md
-# 📅 Calendar-Based Slot Booking Backend
+#  Calendar-Based Slot Booking Backend
 
 This project is a **RESTful backend service** for a calendar-based class slot booking system.  
 It is built using **Node.js, Express, MongoDB, and JWT authentication**, and supports secure, flexible slot booking across multiple batches every month.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - Node.js  
 - Express.js  
@@ -22,7 +22,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
 - User registration and login
 - JWT-based authentication
@@ -35,7 +35,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## 📌 Scheduling & Business Rules
+##  Scheduling & Business Rules
 
 ### Monthly Batch Logic
 
@@ -53,7 +53,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## 👤 User Booking Rules
+##  User Booking Rules
 
 - Slot booking is **incremental**, not final
 - Users can:
@@ -65,7 +65,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## 🧠 Design Decisions
+##  Design Decisions
 
 - Calendar data is **generated dynamically** and not stored in the database
 - Each booked slot is stored as an **independent document**
@@ -74,7 +74,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 1. User registers or logs in
 2. Backend verifies credentials
@@ -84,7 +84,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## 🛠️ API Endpoints
+##  API Endpoints
 
 ### Authentication APIs
 
@@ -105,7 +105,7 @@ It is built using **Node.js, Express, MongoDB, and JWT authentication**, and sup
 
 ---
 
-## 🗂️ Backend Folder Structure
+## Backend Folder Structure
 
 ```text
 src/
@@ -120,7 +120,7 @@ src/
 
 ---
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 * Passwords are hashed using bcrypt
 * JWT tokens are validated on every protected request
@@ -129,7 +129,7 @@ src/
 
 ---
 
-## 🧪 Running the Backend
+##  Running the Backend
 
 ### Install Dependencies
 
@@ -145,7 +145,7 @@ npm run dev
 
 ---
 
-## 📝 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -157,7 +157,7 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
-## 📌 Summary
+##  Summary
 
 > A secure Node.js backend that dynamically generates batch-based calendars and supports flexible, user-scoped slot booking using JWT-authenticated APIs.
 
@@ -165,16 +165,4 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
-### ✅ This README is:
-- Backend-only ✔
-- Assessment-friendly ✔
-- Interview-readable ✔
-- Clean and professional ✔
-
-If you want, I can also:
-- **shorten this to a 1-page evaluator version**
-- **add an “Assumptions & Trade-offs” section**
-- **prepare interview Q&A based on this README**
-
-You’re in a very strong position for submission. 🚀
 ```
